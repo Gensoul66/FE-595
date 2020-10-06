@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 
 
 def main():
-
     # create a 2pi sequence and plug it in to sine function and cosine function
     x = np.arange(0, 2 * np.pi, 0.001)
     y_sine = np.sin(x)
@@ -18,5 +17,6 @@ def main():
     plt.legend()
     plt.show()
 
-    if __name__ == "_main_":
-        main()
+
+if __name__ == "__main__" :
+    main()
